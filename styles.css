@@ -1,0 +1,70 @@
+/* Configurações da página inteira */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f2ff; /* Um azul bem clarinho */
+    margin: 0;
+    padding: 0;
+}
+
+/* Topo do site */
+header {
+    background-color: #004080; /* Azul marinho */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #003366;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none; /* Tira o sublinhado do link */
+    margin: 0 15px; /* Espaço entre os links */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #add8e6; /* Cor muda quando passa o mouse */
+}
+
+/* Caixa branca onde fica o texto */
+main {
+    width: 80%; /* Ocupa 80% da largura da tela */
+    margin: 20px auto; /* Centraliza a caixa na tela */
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #cccccc; /* Uma bordinha cinza */
+}
+
+/* Títulos dentro do conteúdo */
+h2 {
+    color: #004080;
+}
+
+/* Ajuste da imagem para não ficar gigante */
+img {
+    width: 300px; /* Tamanho fixo para a foto */
+    display: block; /* Ajuda a centralizar */
+    margin: 10px 0; /* Espaço em cima e embaixo */
+    border: 5px solid #eeeeee;
+}
+
+/* Listas */
+ul, ol {
+    margin-bottom: 20px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333333;
+    color: white;
+    font-size: 14px;
+}
+
