@@ -1,70 +1,116 @@
-/* Configurações da página inteira */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #e6f2ff; /* Um azul bem clarinho */
-    margin: 0;
+/* Isso garante que o conteúdo da section fique centralizado e bonito */
+section {
+    margin-bottom: 50px;
+    text-align: center; /* Centraliza a foto e o texto */
+}
+
+.foto-principal {
+    display: block;
+    width: 100%;          /* Ocupa a largura total da section */
+    max-width: 1100px;    /* Mas limita para não perder qualidade */
+    height: auto;
+    margin: 30px auto;
+    border: 12px solid #FFF;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+/* Estilo para listas (exigência da imagem) */
+ul {
+    list-style: none;
     padding: 0;
 }
-
-/* Topo do site */
-header {
-    background-color: #004080; /* Azul marinho */
-    color: white;
-    text-align: center;
-    padding: 20px;
+/* Paleta: Rosa Pálido (#F8E0E6), Vinho (#630D21) e Branco Crepuscular */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFF5F7; /* Fundo rosa bem clarinho */
+    color: #4A0E1C; /* Vinho escuro para o texto */
+    margin: 0;
+    line-height: 1.6;
 }
 
-/* Menu de navegação */
-nav {
-    background-color: #003366;
-    padding: 10px;
+header {
+    background-color: #F8E0E6; /* Rosa Pálido */
+    padding: 40px 20px;
     text-align: center;
+    border-bottom: 3px solid #EBC4CF;
+}
+
+h1 {
+    margin: 0;
+    color: #630D21; /* Vinho */
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Menu igual ao original do seu Git */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
 }
 
 nav a {
-    color: white;
-    text-decoration: none; /* Tira o sublinhado do link */
-    margin: 0 15px; /* Espaço entre os links */
+    text-decoration: none;
+    color: #8A4F5D;
     font-weight: bold;
+    font-size: 1.1rem;
+    transition: 0.3s;
 }
 
-nav a:hover {
-    color: #add8e6; /* Cor muda quando passa o mouse */
+nav a:hover, nav a.active {
+    color: #630D21;
+    border-bottom: 2px solid #630D21;
 }
 
-/* Caixa branca onde fica o texto */
+/* Foto Gigante */
+.foto-principal {
+    display: block;
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    margin: 30px auto;
+    border: 10px solid #FFF;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
 main {
-    width: 80%; /* Ocupa 80% da largura da tela */
-    margin: 20px auto; /* Centraliza a caixa na tela */
-    background-color: white;
-    padding: 20px;
-    border: 1px solid #cccccc; /* Uma bordinha cinza */
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 0 20px;
 }
 
-/* Títulos dentro do conteúdo */
-h2 {
-    color: #004080;
+section {
+    margin-bottom: 50px;
 }
 
-/* Ajuste da imagem para não ficar gigante */
-img {
-    width: 300px; /* Tamanho fixo para a foto */
-    display: block; /* Ajuda a centralizar */
-    margin: 10px 0; /* Espaço em cima e embaixo */
-    border: 5px solid #eeeeee;
+h2, h3 {
+    color: #630D21;
+    border-left: 5px solid #EBC4CF;
+    padding-left: 15px;
 }
 
-/* Listas */
-ul, ol {
-    margin-bottom: 20px;
+blockquote {
+    background-color: #FCEFF2;
+    border-left: 8px solid #F8E0E6;
+    margin: 30px 0;
+    padding: 25px;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #630D21;
 }
 
-/* Rodapé */
 footer {
     text-align: center;
-    padding: 15px;
-    background-color: #333333;
-    color: white;
-    font-size: 14px;
+    padding: 40px;
+    background-color: #F8E0E6;
+    color: #630D21;
+    font-weight: bold;
+    margin-top: 60px;
 }
-
